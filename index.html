@@ -11,7 +11,10 @@
             padding: 0;
             color: #333;
             background: url('https://i.ibb.co/rmwPCf8/fqwebbackground.webp') repeat-x;
-            background-size: 75vw auto;
+            background-size: 100%;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             background: rgba(255, 255, 255, 0.9);
@@ -25,8 +28,8 @@
             width: 150px;
         }
         .section-1 {
-            background: rgba(0, 0, 0, 0); 
-            height: auto;
+            background: rgba(0, 0, 0, 0.4); 
+            flex: 1;  /* Takes remaining space */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -61,14 +64,10 @@
         .email-button:hover {
             background-color: #808080;
         }
-        .section-2 {
-            padding: 30px;
-            text-align: center;
-        }
         footer {
             padding: 20px;
             text-align: center;
-            background-color: #f1f1f1;
+            background-color: #FBF6FB;
             box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
         }
         footer a {
@@ -88,11 +87,10 @@
     <div class="section-1">
         <div class="content-box">
             <h1>AI Agents for Clinical Practice Automation</h1>
-            <p>Limited Access</p>
+            <p>Limited Access Only</p>
             <a href="https://app.reclaim.ai/m/faruque/zoom" class="email-button">Book a Demo</a>
         </div>
     </div>
-
     <footer>
         <a href="https://www.frqtechnologies.com/policies/terms.html">Terms of Service</a>
         <a href="https://www.frqtechnologies.com/policies/privacy.html">Privacy Policy</a>
