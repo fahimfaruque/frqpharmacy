@@ -3,100 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FRQ</title>
+    <title>FRQ Pharmacy Group</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             color: #333;
-            background: url('https://i.ibb.co/rmwPCf8/fqwebbackground.webp') repeat-x;
-            background-size: 100%;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
+            background-color: #fff;
         }
         header {
             background: rgba(255, 255, 255, 0.9);
-            padding: 15px 20px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             display: flex;
             justify-content: center;
             align-items: center;
         }
         header .logo {
-            width: 150px;
+            width: 80px;
         }
         .section-1 {
-            background: rgba(0, 0, 0, 0.4); 
-            flex: 1;  /* Takes remaining space */
+            background: url('https://i.ibb.co/rmwPCf8/fqwebbackground.webp') no-repeat center center;
+            background-size: cover;
+            height: 50vh;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            position: relative;
             color: #fff;
             padding: 20px;
             text-align: center;
         }
         .section-1 .content-box {
-            background: rgba(50, 50, 50, 0.8);
-            padding: 30px;
-            border-radius: 12px;
+            background: rgba(50, 50, 50, 0.6);
+            padding: 20px;
+            border-radius: 10px;
         }
         .section-1 h1 {
-            font-size: 32px;
-            margin-bottom: 15px;
+            font-size: 24px;
+            margin-bottom: 10px;
         }
         .section-1 p {
-            margin-bottom: 25px;
-            font-style: italic;
+            margin-bottom: 20px;
         }
         .email-button {
             background-color: #d397ed;
             color: #fff;
-            padding: 12px 25px;
+            padding: 10px 20px;
             border: none;
-            border-radius: 25px;
+            border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
             transition: background-color 0.3s;
+            margin-bottom: 10px; /* Added for spacing */
         }
         .email-button:hover {
             background-color: #808080;
         }
-        footer {
+        .license-link {
+            font-size: 14px; /* Smaller size */
+        }
+        .section-2 {
             padding: 20px;
             text-align: center;
-            background-color: #FBF6FB;
-            box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 150px;
         }
-        footer a {
-            color: #333;
-            text-decoration: none;
+        .support-logos img {
+            width: 150px;
             margin: 0 15px;
-        }
-        footer a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="https://i.ibb.co/52WfKQY/FRQ-tech-logo.png" alt="FRQ Pharmacy Group Logo" class="logo">
+        <img src="https://i.ibb.co/0KdqYn6/FRQ-only.png" alt="FRQ Pharmacy Group Logo" class="logo">
+        
     </header>
     <div class="section-1">
         <div class="content-box">
-
-            <h1>AI Agents for Clinical Practice Automation</h1>
-            <p>Limited Access Only</p>
-            <a href="https://app.reclaim.ai/m/faruque/zoom" class="email-button">Book a Demo</a>
-
+            <h1>Pharmacists partnering with your doctor to personalize your healthcare experience</h1>
+            <p>We are only limited access at this time.</p>
+            <a href="mailto:contact@frqpharmacy.com" class="email-button">contact@frqpharmacy.com</a>
+            <br>            
         </div>
     </div>
-    <footer>
-        <a href="https://www.frqtechnologies.com/policies/terms.html">Terms of Service</a>
-        <a href="https://www.frqtechnologies.com/policies/privacy.html">Privacy Policy</a>
-        <a href="https://www.frqtechnologies.com/forms/consent.html">Consent SMS</a>
-    </footer>
+    <div class="section-2">
+        <p>Supported by:</p>
+        <div class="support-logos">
+            <img src="https://1000logos.net/wp-content/uploads/2022/08/MIT-Logo.png" alt="MIT">
+            <img src="https://i.ibb.co/1KLL43D/harvard.png" alt="HBS">
+        </div>
+    </div>
 </body>
 </html>
