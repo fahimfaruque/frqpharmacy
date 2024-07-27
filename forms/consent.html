@@ -8,15 +8,29 @@
         html, body {
             height: 100%;
             margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            width: 100%;
+            text-align: center;
+            background: #FBF6FB;
         }
         iframe {
             width: 100%;
-            height: 100%;
+            height: calc(100% - 150px); /* Adjust based on header height */
             border: none;
+        }
+        img {
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
+    <header>
+        <img src="https://i.ibb.co/ZcYPb1L/Forms-banner.png" alt="Header Image">
+    </header>
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSenKPje-ilOpiUH368mR8LE6weJfz2svZ4VI-I-2N24sK0Jnw/viewform?embedded=true">
         Loading…
     </iframe>
